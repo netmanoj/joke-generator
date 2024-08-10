@@ -1,0 +1,26 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+#jokeContainer {
+    text-align: center;
+    background: white;
+    padding: 20px;
+}
+#jokeText {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+#jokeButton {
+    padding: 10px 20px;
+    font-size: 1em;
+    color: white;
+    background-color: #009b60;
+    border: none;
+    cursor: pointer;
+}
