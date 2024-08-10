@@ -5,11 +5,11 @@ body {
     align-items: center;
     height: 100vh;
     margin: 0;
-    background-color: #f0f0f0;
+    background-color: #d6ede7;
 }
 #jokeContainer {
     text-align: center;
-    background: white;
+    background: rgb(148, 162, 237);
     padding: 20px;
 }
 #jokeText {
