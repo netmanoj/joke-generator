@@ -5,7 +5,7 @@ function fetchJoke() {
             document.getElementById('jokeText').innerText = data.value;
         })
         .catch(error => {
-            document.getElementById('jokeText').innerText = 'Oops! Something went wrong. Please try again.';
+            document.getElementById('jokeText').innerText = 'Something went wrong.';
             console.error('Error fetching the joke:', error);
         });
 }
